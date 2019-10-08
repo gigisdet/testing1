@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Užduočių planuoklis</title>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <!-- <script type="text/javascript">
+		$(document).ready(function() {
+	  		// čia rašomas JQuery kodas
+		  	$('#contentLeft h2').mouseover(function() { // užvedus pelyte
+		  		$(this).css('cursor', 'pointer'); // pakeičiamas pelytės žymeklis
+		  	});
+	  		
+	  		$('#contentLeft h2').click(function() { // paspaudus contentLeft h2 elem.
+				$('#contentLeft ul').slideToggle(); // slepiamas/rodomas ul meniu elem.
+			});
+		}); -->
+    </script>
+</head>
+
+<body>
+    <div id="body">
+        <div id="header">
+            <h3 id="slogan">Užduočių planavimo sistema</h3>
+        </div>
+        <div id="content">
+            <div id="topMenu">
+                <ul>
+                    <li><a href="index.html" title="Pagrindinis">Pagrindinis</a></li>
+
+                    <li><a href="uzduotys.html" title="Užduotys">Užduotys</a></li>
+                    <ul>
+                        <li><a href="uzduotys.html" class="active">Aktyvios užduotys</a></li>
+                        <li><a href="uzbaigtos_uzduotys.html">Užbaigtos užduotys</a></li>
+                        <li><a href="nauja_uzduotis.html">Nauja užduotis</a></li>
+                        <li><a href="uzduociu_tipai.html">Užduočių tipai</a></li>
+
+                    </ul>
+                    <li><a href="uzrasai.html" title="Užrašai">Užrašai</a></li>
+                    <ul>
+                        <li><a href="uzrasai.html" class="active">Užrašai</a></li>
+                        <li><a href="naujas_uzrasas.html">Naujas užrašas</a></li>
+                        <li><a href="uzrasu_tipai.html">Užrašų tipai</a></li>
+                    </ul>
+                </ul>
+            </div>
+            <div id="contentLeft">
+                <h2>Pagrindinis</h2>
+                <ul>
+                    <li><a href="uzduotys.html">Užduotys</a></li>
+                    <li><a href="uzrasai.html">Užrašai</a></li>
+                </ul>
+
+
+            </div>
+            <div id="contentRight">
+                <h2 id="pageTitle">Dabar vykdomos užduotys</h2>
+                <p>Tempor lacus aliquam class sapien per lacinia. Rutrum dolor malesuada. Nullam risus nullam nibh suscipit. Pulvinar dolor ligula. Pulvinar urna litora a dapibus. Aliquet magna rutrum urna convallis. Sapien duis montes. Phasellus et magnis
+                    non venenatis risus consequat.
+                </p>
+            </div>
+        </div>
+        <div id="footer">
+            <p>Copyright &copy; Užduočių planavimo sistema</p>
+        </div>
+    </div>
+</body>
+
+</html>
